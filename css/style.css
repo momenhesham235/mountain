@@ -1,0 +1,250 @@
+html{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.536)), 
+    url(../images/page-1_img11_original.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+}
+.main-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.main-nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.4s all ease;
+}
+.main-nav li a:hover{
+    color: white;
+}
+.main-logo{
+    margin: 12rem auto;
+    text-align: center;
+}
+.logo{
+    max-width: 90%;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+h1 span{
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 1px;
+
+}
+/*
+.ABOUT
+    
+ */
+.ABOUT{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(../images/page-1_img05_original.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-text , .event-des , .actvite-des,.RESERVATIONS-des, .contact-des{
+   min-height:100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+section img , footer img{
+    width: 150px;
+}
+h2{
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+p{
+    width: 75%;
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-weight: 200;
+    line-height: 1.8rem ;
+}
+/*...................
+      EVENTS
+ ....................*/
+
+.EVENTS{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(../images/page-1_img10_original.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+}
+.box p{
+    text-align: start;
+    width: 85%;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: 0.4s all ease;
+}
+h3:hover{
+    color: darkgrey;
+}
+/*..................
+    ACTIVITIES 
+ ...................*/
+ .ACTIVITIES{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(../images/page-1_img13_original.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.card img{
+    width: 250px;
+    border-radius: 50%;
+    transition: 0.4s all ease;
+    opacity: 0.7;   
+    background-color: darkgray;
+
+}
+
+.card img:hover{
+    opacity: 1;
+}
+.card p{
+    text-align: center;
+}
+/*...................
+        RESERVATIONS
+ .....................*/
+.RESERVATIONS{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(../images/page-1_img08_original.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.data{
+    margin-bottom: 50px;
+}
+input{
+    height: 20px;
+    width: 350px;
+    background-color: #f0f0f06c;
+    padding: 7px;
+    border: 1px solid #f0f0f06c;
+    color: white;
+    margin-right: 5px;
+    outline: none;
+}
+textarea{
+    height: 160px;
+    width:100%;
+    background-color: #f0f0f06c;
+    padding: 7px;
+    border: 1px solid #f0f0f06c;
+    color: white;
+    outline: none;
+}
+button{
+    padding: 5px 70px;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid white;
+    transition: 0.4s ease;
+    text-transform: uppercase;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+footer{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(../images/page-1_img09_original.jpg);
+    background-position: center;
+    background-size: cover;
+}
+footer p{
+    width: 60%;
+}
+.phone{
+    width: 40%;
+    display: flex;
+}
+.phone p{
+    font-size: 20px;
+    color: white;
+}
+.phone p i{
+    color: white;
+}
+address{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+}
+.social{
+    margin-top: 50px;
+    color: white;
+}
+.social i{
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 60%;
+    transition: 0.4s;
+}
+.social i:hover{
+    transform: scale(1.2);
+    background-color: #f0f0f06c;
+}
+.end{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 200;   
+}
